@@ -10,9 +10,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-foreground text-background py-16 overflow-hidden">
+    <footer className="relative bg-foreground/90 text-background py-16 overflow-hidden">
       <div 
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-30"
         style={{
           backgroundImage: `url(${footerBg})`,
           backgroundSize: 'cover',
